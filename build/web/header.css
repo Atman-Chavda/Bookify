@@ -1,0 +1,22 @@
+.container{
+    
+    width: 100px;
+    left: 0px;
+    right: 0px;
+    padding: 20px;
+background: lightblue;
+
+}
+
+.search-bar{
+    width: 600px;
+    border-radius: 15px;
+    border: black solid 1px;
+background: lightblue;
+  
+}
+
+.searchButton{
+  background: lightblue;
+  border-radius: 15px;
+}
