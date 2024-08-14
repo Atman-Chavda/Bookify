@@ -1,7 +1,7 @@
 <%-- 
     Document   : favAuthor
     Created on : 15-Apr-2024, 3:45:24 pm
-    Author     : bhara
+    
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
