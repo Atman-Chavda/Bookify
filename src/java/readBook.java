@@ -29,7 +29,7 @@ public class readBook extends HttpServlet {
             PrintWriter out = response.getWriter();
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "root", "nibha123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "****", "****");
             PreparedStatement st = con.prepareStatement("select * from books where book_id=?");
 
             String bookid = request.getParameter("bid");
