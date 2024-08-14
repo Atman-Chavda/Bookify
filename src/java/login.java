@@ -25,7 +25,7 @@ public class login extends HttpServlet {
             HttpSession session = request.getSession();
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "root", "nibha123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "****", "****");
             PreparedStatement st = con.prepareStatement("select userid from users where username=? and password=MD5(?)");
 
             String username = request.getParameter("username");
