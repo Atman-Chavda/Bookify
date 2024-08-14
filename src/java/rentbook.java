@@ -29,7 +29,7 @@ public class rentbook extends HttpServlet {
             String bookName = (String) session.getAttribute("bookName");
             
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "root", "nibha123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "****", "****");
             PreparedStatement st = con.prepareCall("insert into rented values(?,?,?)");
             st.setInt(1, userId);
             st.setString(2, bookId);
