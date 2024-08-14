@@ -15,7 +15,7 @@ public class addBook extends HttpServlet
             response.setContentType("text/html");
             PrintWriter out = response.getWriter();
             Class.forName("com.mysql.cj.jdbc.Driver");  
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost/readerszone","root","nibha123");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost/readerszone","***","****");
             
             
             FileReader fr = new FileReader("C:/Users/bhara/Desktop/bookfile.txt");
