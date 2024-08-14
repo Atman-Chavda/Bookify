@@ -27,7 +27,7 @@
                 </div>
                 <div class="col-4">
                     <b>Popular books</b>
-                    <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/readerszone" user="root" password="nibha123"/>
+                    <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/readerszone" user="****" password="****"/>
                     <sql:query dataSource="${db}" var="rs">
                         select * from books where book_id="B001";
                     </sql:query>
