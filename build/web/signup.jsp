@@ -8,7 +8,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/readerszone" user="root" password="nibha123"/>
+        <sql:setDataSource var="db" driver="com.mysql.cj.jdbc.Driver" url="jdbc:mysql://localhost/readerszone" user="****" password="****"/>
 
         <%
             String fname = request.getParameter("first_name");
