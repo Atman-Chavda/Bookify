@@ -20,7 +20,7 @@ public class searchDisplay extends HttpServlet {
             PrintWriter out=response.getWriter();
             HttpSession session= request.getSession();
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con=DriverManager.getConnection("jdbc:mysql://localhost/readerszone","root","nibha123");
+            Connection con=DriverManager.getConnection("jdbc:mysql://localhost/readerszone","****","****");
             PreparedStatement st=con.prepareCall("select * from books where bname=?");
             
             String bname=request.getParameter("search-topic");
