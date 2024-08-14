@@ -1,7 +1,6 @@
 <%-- 
     Document   : loginform
     Created on : 09-Mar-2024, 6:41:04 pm
-    Author     : bhara
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
