@@ -24,7 +24,7 @@ public class yourBooks extends HttpServlet {
             PrintWriter out = response.getWriter();
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "root", "nibha123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/readerszone", "****", "****");
             PreparedStatement st = con.prepareCall("select * from rented where userid=?");
 
             HttpSession session = request.getSession(false);
